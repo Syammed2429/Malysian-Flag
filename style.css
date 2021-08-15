@@ -1,0 +1,86 @@
+.container {
+    max-width: 500px;
+    height: 100px;
+    /* margin: auto; */
+    position: absolute;
+    top: 100px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    
+    
+}
+.upper {
+    display: grid;
+    grid-template: 'moon strips'
+                    'moon strips'
+                    'moon strips'
+                    'moon strips';
+                   
+
+}
+.lower {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+
+}
+
+.moon {
+    background: #000066;
+    height:150px;
+    grid-area: moon;
+}
+.right-strips {
+    background: #cc0000;
+    height: 20px;
+}
+.lower-strips {
+    background: #cc0000;
+    height: 20px;
+    grid-area: lstrips;
+
+}
+/* .round {
+    position: relative;
+    top: 15px;
+    left: 45px;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    height:60px;
+    width:60px;
+    border-radius:50%;
+    background-color: #ffcc00;
+} */
+.half-moon {
+    position: relative;
+    top: 30px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    height:100px;
+    width:80px;
+    border-radius:50%;
+    box-shadow : -12px 2px   #ffcc00;
+}
+/* .ray {
+    position: relative;
+    right: 10px;
+    bottom: 20px;
+    margin: auto;
+    transform: rotate(-20deg); 
+    width: 0;
+    border-right: 10px solid transparent;
+    border-bottom: 60px solid #ffcc00;
+} */
+.ray {
+    position: relative;
+    top: 40px;
+    left: 20px;
+    font-size: 18px;
+    color: white;
+    font-family: 'comic sans ms';
+    /* float: right; */
+}
